@@ -1,61 +1,30 @@
 {
-  "Chat: Wang, T. Y., Chang, W. L., Wei, C. Y., Liu, C. H., Tzeng, R. C., & Chiu, P. Y. (2023). Cholesterol paradox in older people with type 2 diabetes mellitus regardless of lipid-lowering drug use: a cross-sectional cohort study. Nutrients, 15(14), 3270.\r  \n        type Props = {\n            authors: string[]; // L. M. First\n            year: number;\n            title: string;\n            journal: string;\n            edition?: number;\n            articleNumber: number;\n            pages?: {\n                start: number;\n                end: number;\n            };\n            doiLink: string;\n        });  \n\n        Extract the above information and return the following JSX tag:\n        { {title}:   <Citation {...props} /> }": {
+  "Chat: Xi, C. H. E. N., Hao, C. H. E. N., LU, W. B., Zhang, M., Yuan, T. A. O., Wang, Q. C., ... & Zhang, W. B. (2023). Lower Baseline LDL Cholesterol Affects All-cause Mortality in Patients with First Percutaneous Coronary Intervention. Biomedical and Environmental Sciences, 36(4), 324-333.\r  \n        type Props = {\n            authors: string[]; // L. M. First\n            year: number;\n            title: string;\n            journal: string;\n            edition?: number;\n            articleNumber: number;\n            pages?: {\n                start: number;\n                end: number;\n            };\n            doiLink: string;\n        });  \n\n        Extract the above information and return the following JSX tag:\n        { {title}:   <Citation {...props} /> }": {
     "ChatQuery": {
-      "prompt": "Wang, T. Y., Chang, W. L., Wei, C. Y., Liu, C. H., Tzeng, R. C., & Chiu, P. Y. (2023). Cholesterol paradox in older people with type 2 diabetes mellitus regardless of lipid-lowering drug use: a cross-sectional cohort study. Nutrients, 15(14), 3270.\r  \n        type Props = {\n            authors: string[]; // L. M. First\n            year: number;\n            title: string;\n            journal: string;\n            edition?: number;\n            articleNumber: number;\n            pages?: {\n                start: number;\n                end: number;\n            };\n            doiLink: string;\n        });  \n\n        Extract the above information and return the following JSX tag:\n        { {title}:   <Citation {...props} /> }",
-      "cost": 1.584,
+      "prompt": "Xi, C. H. E. N., Hao, C. H. E. N., LU, W. B., Zhang, M., Yuan, T. A. O., Wang, Q. C., ... & Zhang, W. B. (2023). Lower Baseline LDL Cholesterol Affects All-cause Mortality in Patients with First Percutaneous Coronary Intervention. Biomedical and Environmental Sciences, 36(4), 324-333.\r  \n        type Props = {\n            authors: string[]; // L. M. First\n            year: number;\n            title: string;\n            journal: string;\n            edition?: number;\n            articleNumber: number;\n            pages?: {\n                start: number;\n                end: number;\n            };\n            doiLink: string;\n        });  \n\n        Extract the above information and return the following JSX tag:\n        { {title}:   <Citation {...props} /> }",
+      "cost": 1.6860001,
       "response": {
-        "id": "chatcmpl-8ez3NA7dvNoJkDPfygOu8H4xqcpGT",
+        "id": "chatcmpl-8ezJXBOauTDJOvftm7mYcEo33fTjR",
         "object": "chat.completion",
-        "created": 1704778501,
+        "created": 1704779503,
         "model": "gpt-4-0613",
         "choices": [
           {
             "index": 0,
             "message": {
               "role": "assistant",
-              "content": "{ \n  \"Cholesterol paradox in older people with type 2 diabetes mellitus regardless of lipid-lowering drug use: a cross-sectional cohort study\": \n  <Citation \n    {...{\n      authors: [\"Wang, T. Y.\", \"Chang, W. L.\", \"Wei, C. Y.\", \"Liu, C. H.\", \"Tzeng, R. C.\", \"Chiu, P. Y.\"], \n      year: 2023, \n      title: \"Cholesterol paradox in older people with type 2 diabetes mellitus regardless of lipid-lowering drug use: a cross-sectional cohort study\", \n      journal: \"Nutrients\", \n      edition: 15, \n      articleNumber: 3270, \n      doiLink: \"\" \n    }} \n  /> \n}"
+              "content": "{ \"Lower Baseline LDL Cholesterol Affects All-cause Mortality in Patients with First Percutaneous Coronary Intervention\": <Citation {...{\n    authors: [\"Xi, C. H. E. N.\", \"Hao, C. H. E. N.\", \"LU, W. B.\", \"Zhang, M.\", \"Yuan, T. A. O.\", \"Wang, Q. C.\", \"Zhang, W. B.\"],\n    year: 2023,\n    title: \"Lower Baseline LDL Cholesterol Affects All-cause Mortality in Patients with First Percutaneous Coronary Intervention\",\n    journal: \"Biomedical and Environmental Sciences\",\n    edition: 36,\n    articleNumber: 4,\n    pages: {\n        start: 324,\n        end: 333\n    },\n    doiLink: \"\"\n}} /> }"
             },
             "finish_reason": "stop"
           }
         ],
         "usage": {
-          "prompt_tokens": 188,
-          "completion_tokens": 170,
-          "total_tokens": 358
+          "prompt_tokens": 200,
+          "completion_tokens": 181,
+          "total_tokens": 381
         }
       },
-      "process_time": 21,
-      "model": "gpt-4",
-      "temperature": 0.2,
-      "from_cache": false
-    }
-  },
-  "Chat: Kim, J. T., Lee, J. S., Kim, B. J., Kang, J., Lee, K. J., Park, J. M., ... & Bae, H. J. (2023). Admission LDL-cholesterol, statin pretreatment and early outcomes in acute ischemic stroke. Journal of Clinical Lipidology, 17(5), 612-621.\r  \n        type Props = {\n            authors: string[]; // L. M. First\n            year: number;\n            title: string;\n            journal: string;\n            edition?: number;\n            articleNumber: number;\n            pages?: {\n                start: number;\n                end: number;\n            };\n            doiLink: string;\n        });  \n\n        Extract the above information and return the following JSX tag:\n        { {title}:   <Citation {...props} /> }": {
-    "ChatQuery": {
-      "prompt": "Kim, J. T., Lee, J. S., Kim, B. J., Kang, J., Lee, K. J., Park, J. M., ... & Bae, H. J. (2023). Admission LDL-cholesterol, statin pretreatment and early outcomes in acute ischemic stroke. Journal of Clinical Lipidology, 17(5), 612-621.\r  \n        type Props = {\n            authors: string[]; // L. M. First\n            year: number;\n            title: string;\n            journal: string;\n            edition?: number;\n            articleNumber: number;\n            pages?: {\n                start: number;\n                end: number;\n            };\n            doiLink: string;\n        });  \n\n        Extract the above information and return the following JSX tag:\n        { {title}:   <Citation {...props} /> }",
-      "cost": 1.5480001,
-      "response": {
-        "id": "chatcmpl-8ez3jvZgSaFhZvq1idI1SZZ0GTTaR",
-        "object": "chat.completion",
-        "created": 1704778523,
-        "model": "gpt-4-0613",
-        "choices": [
-          {
-            "index": 0,
-            "message": {
-              "role": "assistant",
-              "content": "{ \"Admission LDL-cholesterol, statin pretreatment and early outcomes in acute ischemic stroke\": <Citation {...{\n            authors: [\"Kim, J. T.\", \"Lee, J. S.\", \"Kim, B. J.\", \"Kang, J.\", \"Lee, K. J.\", \"Park, J. M.\", \"Bae, H. J.\"],\n            year: 2023,\n            title: \"Admission LDL-cholesterol, statin pretreatment and early outcomes in acute ischemic stroke\",\n            journal: \"Journal of Clinical Lipidology\",\n            edition: 17,\n            articleNumber: 5,\n            pages: {\n                start: 612,\n                end: 621\n            },\n            doiLink: \"\"\n        }} /> }"
-            },
-            "finish_reason": "stop"
-          }
-        ],
-        "usage": {
-          "prompt_tokens": 188,
-          "completion_tokens": 164,
-          "total_tokens": 352
-        }
-      },
-      "process_time": 18,
+      "process_time": 13,
       "model": "gpt-4",
       "temperature": 0.2,
       "from_cache": false
@@ -66,9 +35,9 @@
       "prompt": "Gouveia, R., Madureira, S., Elias, C., Neves, A., Soares, P. R., Soares-Carreira, M., ... & Lourenco, P. (2023). Lower low density lipoprotein cholesterol associates to higher mortality in non-diabetic heart failure patients. International Journal of Cardiology Cardiovascular Risk and Prevention, 18, 200197.  \n        type Props = {\n            authors: string[]; // L. M. First\n            year: number;\n            title: string;\n            journal: string;\n            edition?: number;\n            articleNumber: number;\n            pages?: {\n                start: number;\n                end: number;\n            };\n            doiLink: string;\n        });  \n\n        Extract the above information and return the following JSX tag:\n        { {title}:   <Citation {...props} /> }",
       "cost": 1.446,
       "response": {
-        "id": "chatcmpl-8ez41PJNDrEmR5XKV6CCgdo2Ws2E0",
+        "id": "chatcmpl-8ezKDzoVWG6om67UhneknxfqF77Q1",
         "object": "chat.completion",
-        "created": 1704778541,
+        "created": 1704779545,
         "model": "gpt-4-0613",
         "choices": [
           {
@@ -86,38 +55,38 @@
           "total_tokens": 335
         }
       },
-      "process_time": 8,
+      "process_time": 13,
       "model": "gpt-4",
       "temperature": 0.2,
       "from_cache": false
     }
   },
-  "Chat: Xi, C. H. E. N., Hao, C. H. E. N., LU, W. B., Zhang, M., Yuan, T. A. O., Wang, Q. C., ... & Zhang, W. B. (2023). Lower Baseline LDL Cholesterol Affects All-cause Mortality in Patients with First Percutaneous Coronary Intervention. Biomedical and Environmental Sciences, 36(4), 324-333.\r  \n        type Props = {\n            authors: string[]; // L. M. First\n            year: number;\n            title: string;\n            journal: string;\n            edition?: number;\n            articleNumber: number;\n            pages?: {\n                start: number;\n                end: number;\n            };\n            doiLink: string;\n        });  \n\n        Extract the above information and return the following JSX tag:\n        { {title}:   <Citation {...props} /> }": {
+  "Chat: Wang, T. Y., Chang, W. L., Wei, C. Y., Liu, C. H., Tzeng, R. C., & Chiu, P. Y. (2023). Cholesterol paradox in older people with type 2 diabetes mellitus regardless of lipid-lowering drug use: a cross-sectional cohort study. Nutrients, 15(14), 3270.\r  \n        type Props = {\n            authors: string[]; // L. M. First\n            year: number;\n            title: string;\n            journal: string;\n            edition?: number;\n            articleNumber: number;\n            pages?: {\n                start: number;\n                end: number;\n            };\n            doiLink: string;\n        });  \n\n        Extract the above information and return the following JSX tag:\n        { {title}:   <Citation {...props} /> }": {
     "ChatQuery": {
-      "prompt": "Xi, C. H. E. N., Hao, C. H. E. N., LU, W. B., Zhang, M., Yuan, T. A. O., Wang, Q. C., ... & Zhang, W. B. (2023). Lower Baseline LDL Cholesterol Affects All-cause Mortality in Patients with First Percutaneous Coronary Intervention. Biomedical and Environmental Sciences, 36(4), 324-333.\r  \n        type Props = {\n            authors: string[]; // L. M. First\n            year: number;\n            title: string;\n            journal: string;\n            edition?: number;\n            articleNumber: number;\n            pages?: {\n                start: number;\n                end: number;\n            };\n            doiLink: string;\n        });  \n\n        Extract the above information and return the following JSX tag:\n        { {title}:   <Citation {...props} /> }",
-      "cost": 1.6800001,
+      "prompt": "Wang, T. Y., Chang, W. L., Wei, C. Y., Liu, C. H., Tzeng, R. C., & Chiu, P. Y. (2023). Cholesterol paradox in older people with type 2 diabetes mellitus regardless of lipid-lowering drug use: a cross-sectional cohort study. Nutrients, 15(14), 3270.\r  \n        type Props = {\n            authors: string[]; // L. M. First\n            year: number;\n            title: string;\n            journal: string;\n            edition?: number;\n            articleNumber: number;\n            pages?: {\n                start: number;\n                end: number;\n            };\n            doiLink: string;\n        });  \n\n        Extract the above information and return the following JSX tag:\n        { {title}:   <Citation {...props} /> }",
+      "cost": 1.446,
       "response": {
-        "id": "chatcmpl-8ez31myjIA55ygWZXmpZSXMVNam3K",
+        "id": "chatcmpl-8ezJluK5GiVRBw5b2TZ7b5tws3Dqm",
         "object": "chat.completion",
-        "created": 1704778479,
+        "created": 1704779517,
         "model": "gpt-4-0613",
         "choices": [
           {
             "index": 0,
             "message": {
               "role": "assistant",
-              "content": "{ \"Lower Baseline LDL Cholesterol Affects All-cause Mortality in Patients with First Percutaneous Coronary Intervention\": <Citation {...{\n    authors: [\"Xi, C. H. E. N.\", \"Hao, C. H. E. N.\", \"LU, W. B.\", \"Zhang, M.\", \"Yuan, T. A. O.\", \"Wang, Q. C.\", \"Zhang, W. B.\"],\n    year: 2023,\n    title: \"Lower Baseline LDL Cholesterol Affects All-cause Mortality in Patients with First Percutaneous Coronary Intervention\",\n    journal: \"Biomedical and Environmental Sciences\",\n    edition: 36,\n    articleNumber: 4,\n    pages: {\n        start: 324,\n        end: 333\n    },\n    doiLink: \"\"\n}} />}"
+              "content": "{ \"Cholesterol paradox in older people with type 2 diabetes mellitus regardless of lipid-lowering drug use: a cross-sectional cohort study\": <Citation \n    authors={[\"Wang, T. Y.\", \"Chang, W. L.\", \"Wei, C. Y.\", \"Liu, C. H.\", \"Tzeng, R. C.\", \"Chiu, P. Y.\"]} \n    year={2023} \n    title={\"Cholesterol paradox in older people with type 2 diabetes mellitus regardless of lipid-lowering drug use: a cross-sectional cohort study\"} \n    journal={\"Nutrients\"} \n    edition={15} \n    articleNumber={3270} \n/> }"
             },
             "finish_reason": "stop"
           }
         ],
         "usage": {
-          "prompt_tokens": 200,
-          "completion_tokens": 180,
-          "total_tokens": 380
+          "prompt_tokens": 188,
+          "completion_tokens": 147,
+          "total_tokens": 335
         }
       },
-      "process_time": 22,
+      "process_time": 13,
       "model": "gpt-4",
       "temperature": 0.2,
       "from_cache": false
@@ -126,29 +95,60 @@
   "Meta: Provide a variable declaration of these objects as a single object: const references = { ... };": {
     "MetaQuery": {
       "prompt": "Provide a variable declaration of these objects as a single object: const references = { ... };",
-      "cost": 0.65400004,
+      "cost": 5.343,
       "response": {
-        "id": "chatcmpl-8ez4Aev4slq4Nr2atTBmoldowWvrQ",
+        "id": "chatcmpl-8ezKRDL7DKBjneYFkRO7d60PIM1xZ",
         "object": "chat.completion",
-        "created": 1704778550,
+        "created": 1704779559,
         "model": "gpt-4-0613",
         "choices": [
           {
             "index": 0,
             "message": {
               "role": "assistant",
-              "content": "Data:\n\n1. Name: \"John Doe\"\n2. Age: 35\n3. Gender: \"Male\"\n4. Occupation: \"Software Developer\"\n5. Salary: 75000\n\n```javascript\nconst references = {\n  name: \"John Doe\",\n  age: 35,\n  gender: \"Male\",\n  occupation: \"Software Developer\",\n  salary: 75000\n};\n```"
+              "content": "const references = {\n    1: {\n        authors: [\"Xi, C. H. E. N.\", \"Hao, C. H. E. N.\", \"LU, W. B.\", \"Zhang, M.\", \"Yuan, T. A. O.\", \"Wang, Q. C.\", \"Zhang, W. B.\"],\n        year: 2023,\n        title: \"Lower Baseline LDL Cholesterol Affects All-cause Mortality in Patients with First Percutaneous Coronary Intervention\",\n        journal: \"Biomedical and Environmental Sciences\",\n        edition: 36,\n        articleNumber: 4,\n        pages: {\n            start: 324,\n            end: 333\n        },\n        doiLink: \"\"\n    },\n    2: {\n        authors: [\"Gouveia, R.\", \"Madureira, S.\", \"Elias, C.\", \"Neves, A.\", \"Soares, P. R.\", \"Soares-Carreira, M.\", \"Lourenco, P.\"],\n        year: 2023,\n        title: \"Lower low density lipoprotein cholesterol associates to higher mortality in non-diabetic heart failure patients\",\n        journal: \"International Journal of Cardiology Cardiovascular Risk and Prevention\",\n        edition: 18,\n        articleNumber: 200197,\n        doiLink: \"\"\n    },\n    3: {\n        authors: [\"Wang, T. Y.\", \"Chang, W. L.\", \"Wei, C. Y.\", \"Liu, C. H.\", \"Tzeng, R. C.\", \"Chiu, P. Y.\"],\n        year: 2023, \n        title: \"Cholesterol paradox in older people with type 2 diabetes mellitus regardless of lipid-lowering drug use: a cross-sectional cohort study\",\n        journal: \"Nutrients\",\n        edition: 15,\n        articleNumber: 3270\n    },\n    4: {\n        authors: [\"Kim, J. T.\", \"Lee, J. S.\", \"Kim, B. J.\", \"Kang, J.\", \"Lee, K. J.\", \"Park, J. M.\", \"Bae, H. J.\"],\n        year: 2023,\n        title: \"Admission LDL-cholesterol, statin pretreatment and early outcomes in acute ischemic stroke\",\n        journal: \"Journal of Clinical Lipidology\",\n        edition: 17,\n        articleNumber: 5,\n        pages: {\n            start: 612,\n            end: 621\n        },\n        doiLink: \"\"\n    }\n};"
             },
             "finish_reason": "stop"
           }
         ],
         "usage": {
-          "prompt_tokens": 54,
-          "completion_tokens": 82,
-          "total_tokens": 136
+          "prompt_tokens": 697,
+          "completion_tokens": 542,
+          "total_tokens": 1239
         }
       },
-      "process_time": 5231,
+      "process_time": 28898,
+      "model": "gpt-4",
+      "temperature": 0.2,
+      "from_cache": false
+    }
+  },
+  "Chat: Kim, J. T., Lee, J. S., Kim, B. J., Kang, J., Lee, K. J., Park, J. M., ... & Bae, H. J. (2023). Admission LDL-cholesterol, statin pretreatment and early outcomes in acute ischemic stroke. Journal of Clinical Lipidology, 17(5), 612-621.\r  \n        type Props = {\n            authors: string[]; // L. M. First\n            year: number;\n            title: string;\n            journal: string;\n            edition?: number;\n            articleNumber: number;\n            pages?: {\n                start: number;\n                end: number;\n            };\n            doiLink: string;\n        });  \n\n        Extract the above information and return the following JSX tag:\n        { {title}:   <Citation {...props} /> }": {
+    "ChatQuery": {
+      "prompt": "Kim, J. T., Lee, J. S., Kim, B. J., Kang, J., Lee, K. J., Park, J. M., ... & Bae, H. J. (2023). Admission LDL-cholesterol, statin pretreatment and early outcomes in acute ischemic stroke. Journal of Clinical Lipidology, 17(5), 612-621.\r  \n        type Props = {\n            authors: string[]; // L. M. First\n            year: number;\n            title: string;\n            journal: string;\n            edition?: number;\n            articleNumber: number;\n            pages?: {\n                start: number;\n                end: number;\n            };\n            doiLink: string;\n        });  \n\n        Extract the above information and return the following JSX tag:\n        { {title}:   <Citation {...props} /> }",
+      "cost": 1.5239999,
+      "response": {
+        "id": "chatcmpl-8ezJyMQHaYTMicIfFAb4hTza8ZwtY",
+        "object": "chat.completion",
+        "created": 1704779530,
+        "model": "gpt-4-0613",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{ \"Admission LDL-cholesterol, statin pretreatment and early outcomes in acute ischemic stroke\": <Citation \n    authors={[\"Kim, J. T.\", \"Lee, J. S.\", \"Kim, B. J.\", \"Kang, J.\", \"Lee, K. J.\", \"Park, J. M.\", \"Bae, H. J.\"]} \n    year={2023} \n    title={\"Admission LDL-cholesterol, statin pretreatment and early outcomes in acute ischemic stroke\"} \n    journal={\"Journal of Clinical Lipidology\"} \n    edition={17} \n    articleNumber={5} \n    pages={{start: 612, end: 621}} \n    doiLink={\"\"} \n/> }"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 188,
+          "completion_tokens": 160,
+          "total_tokens": 348
+        }
+      },
+      "process_time": 14,
       "model": "gpt-4",
       "temperature": 0.2,
       "from_cache": false

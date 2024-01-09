@@ -1228,7 +1228,7 @@ checksum = "3fdb12b2476b595f9358c5161aa467c2438859caa136dec86c26fdd2efe17b92"
 [[package]]
 name = "openai_rs"
 version = "0.1.0"
-source = "git+https://github.com/Noah3141/openai_rs#ec421b262354120b98c199dc759f64cf96e8f2cc"
+source = "git+https://github.com/Noah3141/openai_rs?branch=main#e11614eeace3f461a592d270ceef66e792f754c7"
 dependencies = [
  "chrono",
  "dotenvy",

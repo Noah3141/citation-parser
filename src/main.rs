@@ -24,11 +24,10 @@ async fn main() {
                 start: number;
                 end: number;
             }};
-            doiLink: string;
         }});  
 
         Extract the above information and return the following JSX tag:
-        {{ {{title}}:   <Citation {{...props}} /> }}").as_str())
+        {{ title:   <Citation {{...props}} /> }}").as_str())
             .await
             .expect("success of chat completion");
 

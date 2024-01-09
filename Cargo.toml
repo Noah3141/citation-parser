@@ -6,5 +6,5 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-openai_rs = {git = "https://github.com/Noah3141/openai_rs"}
+openai_rs = {git = "https://github.com/Noah3141/openai_rs", branch = "main"}
 tokio ={ version = "1.35.1", features = ["full"]}
